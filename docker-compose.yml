@@ -1,0 +1,5 @@
+pythonProject:
+  image: pythonproject
+  build:
+    context: .
+    dockerfile: ./Dockerfile
