@@ -1,5 +1,8 @@
-pythonProject:
-  image: pythonproject
-  build:
-    context: .
-    dockerfile: ./Dockerfile
+version: '3.4'
+
+services:
+  pythonProject:
+    image: pythonproject
+    build:
+      context: .
+      dockerfile: ./Dockerfile
